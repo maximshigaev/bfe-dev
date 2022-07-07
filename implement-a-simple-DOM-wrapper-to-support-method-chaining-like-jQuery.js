@@ -14,7 +14,7 @@ function $(el) {
   }
 }
 
-$('#button')
+$(document.getElementById('div'))
   .css('color', '#fff')
-  .css('backgroundColor', '#000')
+  .css('backgroundColor', 'red')
   .css('fontWeight', 'bold')
